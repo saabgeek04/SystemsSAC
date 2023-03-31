@@ -25,4 +25,9 @@ According to their website:
 
 <i>Rover is an advanced open source autopilot for guiding ground vehicles and boats. It can run fully autonomous missions that are defined using mission planning software or pre-recorded by the driver during a manual run.</i>
 
-This is perfect for me as
+This is perfect for me as I will be able to set up missions around the school to demonstrate the capabilities of my project. 
+
+### Ardupilot - Background
+Ardupilot itself was originally designed as low cost autopilot for remote control aeroplanes and boats, but has also been adapted to run "rovers" as well. Think Mars Rovers. 
+
+It works by acting as a remote control for the vehicle its being used on. It essentially replaces the preinstalled reciever on the "rover". It knows its own position using a GPS module, and connects to a Ground control station for mission instructions and waypoints. 
