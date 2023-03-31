@@ -44,4 +44,4 @@ Ardupilot doesn't need much hardware, meaning it will be relatively cheap to ins
 - FPV Camera + TX/RX system
 
 ### Software
-I will be using the reccommeded 
+I will be using [Mission Planner](https://ardupilot.org/planner/index.html#home) for my Ground Control Software (GCS) as it is the most supported and popular GCS for Windows.  
