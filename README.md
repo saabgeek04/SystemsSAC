@@ -42,6 +42,8 @@ Ardupilot doesn't need much hardware, meaning it will be relatively cheap to ins
 - Telemetry/control TX/RX system
 - Sonar/IR for obstical avoidance (maybe)
 
+I haven't decided on exactly what parts I intend to use, but I'll update this list when I do for anyone playing along at home
+
 ### Software
 I will be using [Mission Planner](https://ardupilot.org/planner/index.html#home) for my Ground Control Software (GCS) as it is the most supported and popular GCS for Windows. 
 
