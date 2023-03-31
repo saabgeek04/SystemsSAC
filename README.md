@@ -41,7 +41,10 @@ Ardupilot doesn't need much hardware, meaning it will be relatively cheap to ins
 - GPS module
 - Telemetry/control TX/RX system
 - Sonar/IR for obstical avoidance (maybe)
-- FPV Camera + TX/RX system
 
 ### Software
-I will be using [Mission Planner](https://ardupilot.org/planner/index.html#home) for my Ground Control Software (GCS) as it is the most supported and popular GCS for Windows.  
+I will be using [Mission Planner](https://ardupilot.org/planner/index.html#home) for my Ground Control Software (GCS) as it is the most supported and popular GCS for Windows. 
+
+<img src='https://ardupilot.org/planner/_images/mission_planner_screen_flight_plan.jpg'>
+
+As you can see in the screenshot above, Mission planner will allow me to create a set of waypoints which my rover will use GPS to navigate to. Mission planner will also be able to show my FPV camera footage in its HUD if needed, but I could also do a VLC stream if I needed.
