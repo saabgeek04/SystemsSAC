@@ -1,0 +1,77 @@
+
+/*Import Github Fonts Mona sans and Hubot Sans*/
+@font-face {
+    font-family: 'Mona Sans';
+    src:
+      url('./fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+      url('./fonts/Mona-Sans.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+  }
+  
+  @font-face {
+    font-family: 'Hubot Sans';
+    src:
+      url('./fonts/Hubot-Sans.woff2') format('woff2 supports variations'),
+      url('./fonts/Hubot-Sans.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+  }
+
+  :root {
+    /*Colouring Varibles*/
+    --background-colour:#181720;
+    --primary-text-colour:#fff;
+    --main-accent-colour:#6d57cc;
+    --main-accent-darker:#55459e;
+    --card-background-colour:#2b2939;
+   } 
+
+   html {
+    background-color: var(--background-colour);
+    color: var(--primary-text-colour);
+    font-family: 'Mona Sans';
+    }
+    
+    body {
+    margin: 0;
+    }
+
+
+   /*Flex spaces*/
+   main{
+    display: flex;
+  }
+
+  .trello{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .maincontent{
+    justify-content: center;
+  }
+
+  /*Card Shennanigans*/
+  .card{
+    padding: 20pt;
+    padding-top: 3pt;
+    border-radius: 10pt;
+    border: 1.5pt;
+    border-color: #4a475e;
+    border-style: solid;
+    transition: 100ms ease;
+  
+  }
+
+  .boringcard{
+    margin: 25pt;
+    background-color:var(--card-background-colour) ;
+    max-width: 800pt;
+  }
+  
+  .card:active{
+    transform: scale(0.993, 0.993);
+  }
+  
+ 
