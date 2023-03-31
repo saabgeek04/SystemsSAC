@@ -27,7 +27,21 @@ According to their website:
 
 This is perfect for me as I will be able to set up missions around the school to demonstrate the capabilities of my project. 
 
-### Ardupilot - Background
+### Background
 Ardupilot itself was originally designed as low cost autopilot for remote control aeroplanes and boats, but has also been adapted to run "rovers" as well. Think Mars Rovers. 
 
 It works by acting as a remote control for the vehicle its being used on. It essentially replaces the preinstalled reciever on the "rover". It knows its own position using a GPS module, and connects to a Ground control station for mission instructions and waypoints. 
+
+Overall its a very well sorted system and will make the Autonomous driving part pretty easy (touch wood), allowing me to focus more on the Payload system.
+
+### Hardware
+Ardupilot doesn't need much hardware, meaning it will be relatively cheap to install on my car. Below is a brief list of the Hardware I will need:  
+
+- Ardupilot control module
+- GPS module
+- Telemetry/control TX/RX system
+- Sonar/IR for obstical avoidance (maybe)
+- FPV Camera + TX/RX system
+
+### Software
+I will be using the reccommeded 
