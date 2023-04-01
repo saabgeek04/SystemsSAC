@@ -56,3 +56,6 @@ My initial ideas for the payload so far have been to deliver a cylinder about th
 
 ### A Cylinder? Why not a box
 I am choosing to use a cylinder for a couple of reasons, primarily because they are very easy for a human to hold due to the shape. It also gives me a fun engineering challenge in terms of securing it as it is more complex and less conventional compared to a box. A cylindrical payload could also be transported via other methods, and would be far better for transporting liquids for human consumption (who knows, someone could really really need a bottle of mount franklin!). 
+
+### Loading System
+I 
