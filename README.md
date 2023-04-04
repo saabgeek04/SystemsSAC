@@ -61,3 +61,4 @@ I am choosing to use a cylinder for a couple of reasons, primarily because they 
 I am going to use a clamping system to secure the payload to the vehicle. I want this system to be adaptive to the size/shape of the payload, allowing shapes like water bottles to be held firmly in place. I will have 6 clamping arms along the long side, with another thing at the end to prevent sliding forwards and backwards.
 
 <img src='./media/clampdemo1.png'>
+<i>Demonstration of initial clamp design and its pivot point</i>
