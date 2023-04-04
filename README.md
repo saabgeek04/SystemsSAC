@@ -76,3 +76,5 @@ You can also see in this image that just around the pivot point there is signifi
 
 Ideally the clamps can move independently of each other, allowing the greatest flexibility. This does present a problem however: how do I move all 6 (or 3 pairs of 2) at the same time, without needing 
 6 individual motors?
+
+To solve this problem I am going to start by thinking about failure modes. If the Electronic controls fail, It would be ideal for them to be manually overridden 
