@@ -66,5 +66,5 @@ I am going to use a clamping system to secure the payload to the vehicle. I want
 <img src='./media/clampdemo1.png'>
 <i>Demonstration of initial clamp design and its pivot point</i>
 
-Ideally the clamps can move independently of each other, allowing the greatest flexibility. this also means that 
-
+Ideally the clamps can move independently of each other, allowing the greatest flexibility. This does present a problem however: how do I move all 6 (or 3 pairs of 2) at the same time, without needing 
+6 individual motors?
