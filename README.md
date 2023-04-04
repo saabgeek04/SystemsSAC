@@ -79,4 +79,4 @@ Ideally the clamps can move independently of each other, allowing the greatest f
 
 To solve this problem I am going to start by thinking about failure modes. If the Electronic controls fail, It would be ideal for them to be manually overridden via brute force, i.e someone yanking on them. If they were to fail open whilst the car was driving then the payload could be lost, which would mean mission failure.
 
-Steering servos use gears and can be moved pretty well by hand, but ideally I dont need 6 of them, and If I did have 6 they would have to be relatively powerful to keep the payload sercured. I could also use 
+Steering servos use gears and can be moved pretty well by hand, but ideally I dont need 6 of them, and If I did have 6 they would have to be relatively powerful to keep the payload sercured. I could also use a set of very small linear actuators, however that would be incredibly complex and silly. As an engineer, I am required to find an incredibly simple, "why didn't I think of that" type solution. I think said solution will most likely involve a springs in some way. We will see. 
