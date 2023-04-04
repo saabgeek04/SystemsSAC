@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 # Rapid Remote Response Vehicle (RRRV)
 This Markdown document details the design process used and the troubleshooting that was involved in creating my RRRV.  
 This work was completed as part of VCE Systems engineering Units 3 and 4.  
@@ -56,6 +58,7 @@ My initial ideas for the payload so far have been to deliver a cylinder about th
 
 ### A Cylinder? Why not a box
 I am choosing to use a cylinder for a couple of reasons, primarily because they are very easy for a human to hold due to the shape. It also gives me a fun engineering challenge in terms of securing it as it is more complex and less conventional compared to a box. A cylindrical payload could also be transported via other methods, and would be far better for transporting liquids for human consumption (who knows, someone could really really need a bottle of mount franklin!). 
+### Securing the Payload
+I am going to use a clamping system to secure the payload to the vehicle. I want this system to be adaptive to the size/shape of the payload, allowing shapes like water bottles to be held firmly in place. I will have 6 clamping arms along the long side, with another thing at the end to prevent sliding forwards and backwards.
 
-### Loading System
-I 
+<img src='./media/clampdemo1.png'>
