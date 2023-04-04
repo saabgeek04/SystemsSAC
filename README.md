@@ -63,8 +63,16 @@ I am choosing to use a cylinder for a couple of reasons, primarily because they 
 
 I am going to use a clamping system to secure the payload to the vehicle. I want this system to be adaptive to the size/shape of the payload, allowing shapes like water bottles to be held firmly in place. I will have 6 clamping arms along the long side, with another thing at the end to prevent sliding forwards and backwards. The front side will be pressed up against part of the vehicle.
 
-<img src='./media/clampdemo1.png'>
+<img src='./media/clampdemo1.png'>  
+
 <i>Demonstration of initial clamp design and its pivot point</i>
+
+With my dads reccomendation I removed as much excess material as possible to create the most barebones clamp possible, then I can make it look pretty once I know all the design constraints. 
+Using a stress test we can see that there is not much, if not very little wasted material.
+
+<img src='./media/Barebones Stresstest.png'>
+
+You can also see in this image that just around the pivot point there is significant stress. Ideally when I complete the design it will have two points, allowing for better load distribution. I will also add some extra material if required... we will see...
 
 Ideally the clamps can move independently of each other, allowing the greatest flexibility. This does present a problem however: how do I move all 6 (or 3 pairs of 2) at the same time, without needing 
 6 individual motors?
