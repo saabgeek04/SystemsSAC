@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="style.css">
 
 # Rapid Remote Response Vehicle (RRRV)
 This Markdown document details the design process used and the troubleshooting that was involved in creating my RRRV.  
