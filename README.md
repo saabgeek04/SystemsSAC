@@ -70,18 +70,7 @@ I am going to use a clamping system to secure the payload to the vehicle. I want
 
 <i>Demonstration of initial clamp design and its pivot point</i>
 
-With my dads reccomendation I removed as much excess material as possible to create the most barebones clamp possible, then I can make it look pretty once I know all the design constraints. 
-Using a stress test we can see that there is not much, if not very little wasted material.
-
-<img src='./media/Barebones Stresstest.png'>
-
-You can also see in this image that just around the pivot point there is significant stress. Ideally when I complete the design it will have two points, allowing for better load distribution. I will also add some extra material if required... we will see...
-
 Ideally the clamps can move independently of each other, allowing the greatest flexibility. This does present a problem however: how do I move all 6 (or 3 pairs of 2) at the same time, without needing 
 6 individual motors?
-
-To solve this problem I am going to start by thinking about failure modes. If the Electronic controls fail, It would be ideal for them to be manually overridden via brute force, i.e someone yanking on them. If they were to fail open whilst the car was driving then the payload could be lost, which would mean mission failure.
-
-Steering servos use gears and can be moved pretty well by hand, but ideally I dont need 6 of them, and If I did have 6 they would have to be relatively powerful to keep the payload sercured. I could also use a set of very small linear actuators, however that would be incredibly complex and silly. As an engineer, I am required to find an incredibly simple, "why didn't I think of that" type solution. I think said solution will most likely involve springs in some way.
 
 I continue the design process for this part in the [PAYLOAD.md](/journal/PAYLOAD.md) document.
