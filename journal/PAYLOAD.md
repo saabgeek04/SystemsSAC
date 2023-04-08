@@ -20,6 +20,8 @@ The other issue is failure modes. Ideally, the clamps fail shut so that the carg
 
 Steering servos use gears and can be moved pretty well by hand, but ideally I dont need 6 of them, and If I did have 6 they would have to be relatively powerful to keep the payload sercured. I could also use a set of very small linear actuators, however that would be incredibly complex and silly, as well as very hard to override manually As an engineer, I am required to find an incredibly simple, "why didn't I think of that before" type solution. I think said solution will most likely involve springs in some way.
 
-## Design Process 
+# Design Process 
 
-I started by thinking about the motion I want the payload to follow when it is loaded and unloaded, and realised that I could get the clamps to follow the payloads motion via pressure.
+I started by thinking about the motion I want the payload to follow when it is loaded and unloaded, and realised that I could get the clamps to follow the payloads motion via pressure, The idea being that the payload pushes the clamps themselves as it goes down, and then the payload can be further locked in place, whether thats via a manual switch or an electronic one. 
+
+## Test
