@@ -22,3 +22,4 @@ Steering servos use gears and can be moved pretty well by hand, but ideally I do
 
 ## Design Process 
 
+I started by thinking about the motion I want the payload to follow when it is loaded and unloaded, and realised that I could get the clamps to follow the payloads motion via pressure.
