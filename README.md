@@ -53,6 +53,9 @@ I will be using [Mission Planner](https://ardupilot.org/planner/index.html#home)
 As you can see in the screenshot above, Mission planner will allow me to create a set of waypoints which my rover will use GPS to navigate to. Mission planner will also be able to show my FPV camera footage in its HUD if needed, but I could also do a VLC stream if I needed.
 
 ## The Payload
+
+See also [Payload System](/journal/PAYLOAD.md)
+
 My initial ideas for the payload so far have been to deliver a cylinder about the size of a 600ml water bottle or maybe a pringles can. The payload will be secured to the vehicle via a custom designed clamping system. I am considering using a seatbelt style strap + tensioner as well, which would allow me to secure multiple types of package. 
 
 ### A Cylinder? Why not a box
@@ -79,4 +82,6 @@ Ideally the clamps can move independently of each other, allowing the greatest f
 
 To solve this problem I am going to start by thinking about failure modes. If the Electronic controls fail, It would be ideal for them to be manually overridden via brute force, i.e someone yanking on them. If they were to fail open whilst the car was driving then the payload could be lost, which would mean mission failure.
 
-Steering servos use gears and can be moved pretty well by hand, but ideally I dont need 6 of them, and If I did have 6 they would have to be relatively powerful to keep the payload sercured. I could also use a set of very small linear actuators, however that would be incredibly complex and silly. As an engineer, I am required to find an incredibly simple, "why didn't I think of that" type solution. I think said solution will most likely involve a springs in some way. We will see. 
+Steering servos use gears and can be moved pretty well by hand, but ideally I dont need 6 of them, and If I did have 6 they would have to be relatively powerful to keep the payload sercured. I could also use a set of very small linear actuators, however that would be incredibly complex and silly. As an engineer, I am required to find an incredibly simple, "why didn't I think of that" type solution. I think said solution will most likely involve springs in some way.
+
+I continue the design process for this part in the [PAYLOAD.md](/journal/PAYLOAD.md) document.
