@@ -22,11 +22,13 @@ Steering servos use gears and can be moved pretty well by hand, but ideally I do
 
 # Design Process 
 
-I started by thinking about the motion I want the payload to follow when it is loaded and unloaded, and realised that I could get the clamps to follow the payloads motion via pressure, The idea being that the payload pushes the clamps themselves as it goes down, and then the payload can be further locked in place, whether thats via a manual switch or an electronic one. 
+I started by thinking about the motion I want the payload to follow when it is loaded and unloaded, and realised that I could get the clamps to follow the payloads motion via pressure, The idea being that the payload pushes the clamps themselves as it goes down, and then the payload can be further locked in place, whether thats via a manual switch or an electronic one, I dont know yet, but it will be whatever suits. I probably don't need to have remote control over this, but that depends on how well people react. Some collaboration with the psychology students may be an order.
 
 ## Automatic Mechanical Clamping 
+
+Hopefully the following screenshots help with understanding the motion I intend for the clamps to follow.
 
 <img src='../media/autoclampopen.png'>
 <img src='../media/autoclampclosed.png'>
 
-Above you can see the way in which I intend for the clamp to function. 
+To test this idea, I will need to construct a prototype and see how it performs.
