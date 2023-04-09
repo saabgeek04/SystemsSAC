@@ -32,3 +32,5 @@ Hopefully the following screenshots help with understanding the motion I intend 
 <img src='../media/autoclampclosed.png'>
 
 To test this idea, I will need to construct a prototype and see how it performs.
+
+To start with, I will be using a half length pringles can as my payload, as it is pretty close in size to what I envision my payload to be, and its something I have access to right now and can easily get more of. I can also use the contents of said pringles can to keep myself motivated and continue to work on this project.
