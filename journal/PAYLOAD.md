@@ -1,6 +1,6 @@
 #### [< Back to README.md](/README.md)
 
-# Payload Grabby Thing
+# Payload Clamping system
 This document details the design process I used to create the Clamps system that will secure my payload. 
 
 ## Initial Designs 

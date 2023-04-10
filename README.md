@@ -18,8 +18,7 @@ I'm not designing this for war, but in the event of one, drones and planes can b
 The car is a Traxxas Slash 4x4 VXL
 I will be using it as a base, as it has all the features I need and will allow me to focus on the autonomy + Payload. The last thing I need is to be trying to build and diagnose two systems at the same time. The Slash is very robust and reliable, and stands up to large amounts of abuse with ease (trust me, I've tested it). Its also something I am fairly confident with, as I understand it and how it works. Mine has an upgraded steering servo as a bonus as well. 
 
-The Traxxas Slash, like most remote control cars, has a flimsy plastic body that attaches to the chassis via 4 mounting poles. The body is non structual, and mostly serves as a protective cover, allowing 
-
+See [ROVER.md](/journal/ROVER.md) for more information
 
 <img src='./media/TRAXXASLASH.jpg'>
 <i>Picture of the car pre-systems</i>  
