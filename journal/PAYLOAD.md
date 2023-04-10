@@ -42,7 +42,18 @@ To begin with, I modelled the can in Fusion360, my weapon of choice for designin
 
 Designing the pringles can was pretty easy, it's just a cylinder after all
 
+I then scaled up the clamp I designed previously to match the new size of the pringles can, as well as further refining it to secure the payload better. 
+
 <img src='../media/pringle3.png'>
+
+I initally wanted to make 6 clamps but I deemed that would be too much for just the prototype, So I ended up just making 4 instead. I probably only needed to make one pair of 2, but I want to make something a little bigger. 
+
 <img src='../media/pringle4.png'>
+
+I also added some 3mm thick plates for the whole thing to sit on, that way I can sit the prototype on my bench and test it, rather than trying to somehow hold it in place and manuveur things around. It was also around this point I realised Fusion360 had a high DPI mode, which is very nice and will mean my screenshots from this point onwards will look alot nicer!
+
 <img src='../media/pringle5.png'>
+
+Finally, A nice little render of the prototypes final form
+
 <img src='../media/pringle6.png'>
