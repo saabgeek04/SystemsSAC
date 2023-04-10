@@ -50,6 +50,6 @@ I initally wanted to make 6 clamps but I deemed that would be too much for just 
 
 <img src='../media/pringle4.png'>
 
-I also added some 3mm thick plates for the whole thing to sit on, that way I can sit the prototype on my bench and test it, rather than trying to somehow hold it in place and manuveur things around. It was also around this point I realised Fusion360 had a high DPI mode, which is very nice and will mean my screenshots from this point onwards will look alot nicer!
+I also added some 3mm thick plates for the whole thing to sit on, that way I can sit the prototype on my bench and test it, rather than trying to somehow hold it in place and manuveur things around. It was also around this point I realised Fusion360 had a high DPI mode (in the beta/experimental features section), which is very cool and will mean my screenshots from this point onwards will look alot nicer!
 
 <img src='../media/pringle5.png'>

@@ -15,8 +15,11 @@ Even if
 I'm not designing this for war, but in the event of one, drones and planes can be shot down out of the sky after being picked up on radar. The last thing we want is a urgent and valuble supply drone to fail to complete an urgent mission. A ground vehicle is slower, but could drive along the desert for days on end undetected (and with solar panels too!).  
 # Initial Planning and design 
 ## The Car 
-I will be using a remote control car that I already own as a base, as it has all the features I need and will allow me to focus on the autonomy + Payload.   
-The car itself is a Traxxas Slash 4x4 VXL, The VXL meaning Brushless in this scenario
+The car is a Traxxas Slash 4x4 VXL
+I will be using it as a base, as it has all the features I need and will allow me to focus on the autonomy + Payload. The last thing I need is to be trying to build and diagnose two systems at the same time. The Slash is very robust and reliable, and stands up to large amounts of abuse with ease (trust me, I've tested it). Its also something I am fairly confident with, as I understand it and how it works. Mine has an upgraded steering servo as a bonus as well. 
+
+The Traxxas Slash, like most remote control cars, has a flimsy plastic body that attaches to the chassis via 4 mounting poles. The body is non structual, and mostly serves as a protective cover, allowing 
+
 
 <img src='./media/TRAXXASLASH.jpg'>
 <i>Picture of the car pre-systems</i>  
