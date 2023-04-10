@@ -2,7 +2,7 @@
 # Rapid Remote Response Vehicle (RRRV)
 This Markdown document details the design process used and the troubleshooting that was involved in creating my RRRV.  
 This work was completed as part of VCE Systems engineering Units 3 and 4.  
-I wrote this all in markdown for the simplicity and accessablility, as well as minimal microsoft reliance
+I wrote this all in markdown for the simplicity and accessablility, as well as generally being more pleasant than using word or powerpoint
 There are most likely spelling mistakes and gramatical errors in this document as VScode doesnt come with a spellchecker and I am yet to find an extension that will allow me to spellcheck nicely....not that spelling is a priortiy at the moment 
 
 # Overview
