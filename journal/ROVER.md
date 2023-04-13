@@ -23,4 +23,6 @@ As you can see in the following images, The navigation systems are mounted on a 
 This is a far better design then what I was going for, so Credit to [Thomas J Coyle III](https://diydrones.com/members/ThomasJCoyleIII) for that. 
 I will be attempting to reverse engineer these designs so I figured credit was a good idea...
 
-I will be laser cutting the navigation plate out of acrylic 
+I will be laser cutting the navigation plate out of acrylic, which will mean I can be very precise in the nav mount design. 
+
+I plan to construct two versions, one for prototyping, and one as the final design. This will allow me to figure out exactly which electronics and computers I need without worrying about space on the rover, before constructing the most efficient plate, saving weight and space 
