@@ -36,10 +36,10 @@ As I previously mentioned when talking about Ardupilot, I needed a couple of pei
 - Telemetry/control TX/RX system
 - Sonar/IR for obstical avoidance (maybe)
 
-### Ardupilot Control Module
+### Which to buy on a budget?
 
 The control module is the bit that makes everything happen. It plugs into the speed controller and steering servo to drive the rover, as well as recieving GPS signal from the GPS module. It also allows for manual control of the rover if needed from the regular remote control, buzzer connections to be added (for locating a lost rover) and for a emergency safety switch to be connected. 
 
 The ideal system, if avalible, would be the [Pixhawk 4](https://holybro.com/products/pixhawk-4?variant=41527199498429), which is unfortunately out of stock and very expensive. Its also a bit overkill for what I need, since I am using a rover and not a drone/aeroplane with complex shennanigans going on.
 
-
+I started looking for a cheaper flight controller and eventually found a kit on aliexpress that for the price of a regular pixhawk, would give me all the hardware I need + a pixhawk clone, as a bunch of bonus bits. [This is the kit](https://www.aliexpress.com/item/33058886931.html) and I plan on purchasing the "915V1 1000MWPackageC" Variant.
