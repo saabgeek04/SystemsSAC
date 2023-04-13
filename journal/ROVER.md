@@ -49,3 +49,5 @@ This variant comes with a cable that has a voltage regulator built in to power t
 The included GPS module may not be very good, but I happen to have a large box of GPS modules, which were used 20 years ago for mapping and surveying large areas. They are fitted with USB connectors currently, but I can always solder different connectors on if required. I plan to stick with a single GPS unless I start having issues. 
 
 The kit also contains a safety switch (basically a big red emergency stop button but without the big and red parts), a buzzer that can be enabled if the rover is lost and a sd card to be used as a rudimentry "Black Box".
+
+I think this kit, which at this time is on sale for $335 is the best option for me at the moment.
