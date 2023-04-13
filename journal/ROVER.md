@@ -42,7 +42,7 @@ The control module is the bit that makes everything happen. It plugs into the sp
 
 The ideal system, if avalible, would be the [Pixhawk 4](https://holybro.com/products/pixhawk-4?variant=41527199498429), which is unfortunately out of stock and very expensive. Its also a bit overkill for what I need, since I am using a rover and not a drone/aeroplane with complex shennanigans going on.
 
-I started looking for a cheaper flight controller and eventually found a kit on aliexpress that for the price of a regular Pixhawk, would give me all the hardware I need + a Pixhawk clone, as a bunch of bonus bits. [This is the kit](https://www.aliexpress.com/item/33058886931.html) and I plan on purchasing the "915V1 1000MWPackageC" Variant.
+I started looking for a cheaper flight controller and eventually found a kit on aliexpress that for the price of a regular Pixhawk, would give me all the hardware I need + a Pixhawk clone, as a bunch of bonus bits. [This is the kit](https://www.aliexpress.com/item/33058886931.html) and I plan on purchasing the "915V1 1000MWPackageC" Variant. I know I said earlier that I didn't need all the functionality of a fully fledged Pixhawk, but I couldn't really find a better kit for the money. 
 
 This variant comes with a cable that has a voltage regulator built in to power the Pixhawk clone, meaning no cable splicing is required. It also features 1000mw 933mhz radio, which will do the job. 933hz is not as fast as regular 2.4Ghz, but for my application it will be fine. The 1000mw rating means I will have plenty of range too.
 
@@ -50,4 +50,4 @@ The included GPS module may not be very good, but I happen to have a large box o
 
 The kit also contains a safety switch (basically a big red emergency stop button but without the big and red parts), a buzzer that can be enabled if the rover is lost and a sd card to be used as a rudimentry "Black Box".
 
-I think this kit, which at this time is on sale for $335 is the best option for me at the moment.
+I think this kit, which at this time is on sale for $335 is the best option for me at the moment. Obviously, in an ideal world I would not have to worry about cost and I would just spec out the best solution for this, but I don't have that luxury (Someone sponsor me!) so I'll be doing this all on the cheap, which is kind of the wrong way around if you think about the RC car I'm using as a base. 
