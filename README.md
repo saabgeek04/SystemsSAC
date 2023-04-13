@@ -31,6 +31,8 @@ According to their website:
 
 This is perfect for me as I will be able to set up missions around the school to demonstrate the capabilities of my project. 
 
+Documentation for the autopilot side of things will be documented in [ROVER.md](/journal/ROVER.md), as it is all part of designing the rover.
+
 ### Background
 Ardupilot itself was originally designed as low cost autopilot for remote control aeroplanes and boats, but has also been adapted to run "rovers" as well. Think Mars Rovers. 
 
@@ -46,7 +48,7 @@ Ardupilot doesn't need much hardware, meaning it will be relatively cheap to ins
 - Telemetry/control TX/RX system
 - Sonar/IR for obstical avoidance (maybe)
 
-I haven't decided on exactly what parts I intend to use, but I'll update this list when I do for anyone playing along at home
+See [This Section](/journal/ROVER.md#navigation-computers) for which exact bits I used and why.
 
 ### Software
 I will be using [Mission Planner](https://ardupilot.org/planner/index.html#home) for my Ground Control Software (GCS) as it is the most supported and popular GCS for Windows. 

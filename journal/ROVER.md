@@ -26,3 +26,20 @@ I will be attempting to reverse engineer these designs so I figured credit was a
 I will be laser cutting the navigation plate out of acrylic, which will mean I can be very precise in the nav mount design. 
 
 I plan to construct two versions, one for prototyping, and one as the final design. This will allow me to figure out exactly which electronics and computers I need without worrying about space on the rover, before constructing the most efficient plate, saving weight and space 
+
+## Navigation Computers
+
+As I previously mentioned when talking about Ardupilot, I needed a couple of peices of hardware to make my car into a rover
+
+- Ardupilot control module
+- GPS module
+- Telemetry/control TX/RX system
+- Sonar/IR for obstical avoidance (maybe)
+
+### Ardupilot Control Module
+
+The control module is the bit that makes everything happen. It plugs into the speed controller and steering servo to drive the rover, as well as recieving GPS signal from the GPS module. It also allows for manual control of the rover if needed from the regular remote control, buzzer connections to be added (for locating a lost rover) and for a emergency safety switch to be connected. 
+
+The ideal system, if avalible, would be the [Pixhawk 4](https://holybro.com/products/pixhawk-4?variant=41527199498429), which is unfortunately out of stock and very expensive. Its also a bit overkill for what I need, since I am using a rover and not a drone/aeroplane with complex shennanigans going on.
+
+
