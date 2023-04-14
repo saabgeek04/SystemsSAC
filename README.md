@@ -2,19 +2,19 @@
 # Rapid Remote Response Vehicle (RRRV)
 This Markdown document details the design process used and the troubleshooting that was involved in creating my RRRV.  
 This work was completed as part of VCE Systems engineering Units 3 and 4.  
-I wrote this all in markdown for the simplicity and accessablility, as well as generally being more pleasant than using word or powerpoint
-There are most likely spelling mistakes and gramatical errors in this document as VScode doesnt come with a spellchecker and I am yet to find an extension that will allow me to spellcheck nicely....not that spelling is a priority at the moment 
+I wrote this all in markdown for the simplicity and accessability, as well as generally being more pleasant than using word or powerpoint
+There are most likely spelling mistakes and grammatical errors in this document spelling is a priority at the moment. I have gone through with a basic spellchecker, but I cannot guarantee perfection.
 
 For my weekly journal, see [here](/journal/WEEKLY.md)
 
 # Overview
 ## What am I building?
-I will be building a remote playload delivery vehicle with a first person view camera. the idea of this vehicle is similar to a bomb disposal robot. Its strength is that it can be used to access areas that are not safe for humans. It will be capable of delivering a payload and navigating complex terrain.  
+I will be building a remote payload delivery vehicle with a first person view camera. the idea of this vehicle is similar to a bomb disposal robot. Its strength is that it can be used to access areas that are not safe for humans. It will be capable of delivering a payload and navigating complex terrain.  
 In more detail, I am going to be equipping my own existing remote control car (Traxxas Slash 4x4) with the equipment needed to drive into an area unsafe for humans so that it can deliver a payload. The car will be run using [Ardupilot Rover](https://ardupilot.org/rover/), and will be able to deposit its payload remotely.  
 The payload in question will not be a bomb, I promise. Rather it will be medical supplies or food.  
 Even if 
 ## Why not a plane?
-I'm not designing this for war, but in the event of one, drones and planes can be shot down out of the sky after being picked up on radar. The last thing we want is a urgent and valuble supply drone to fail to complete an urgent mission. A ground vehicle is slower, but could drive along the desert for days on end undetected (and with solar panels too!).  
+I'm not designing this for war, but in the event of one, drones and planes can be shot down out of the sky after being picked up on radar. The last thing we want is a urgent and valuable supply drone to fail to complete an urgent mission. A ground vehicle is slower, but could drive along the desert for days on end undetected (and with solar panels too!).  
 # Initial Planning and design 
 ## The Car 
 The car is a Traxxas Slash 4x4 VXL
@@ -38,7 +38,7 @@ Documentation for the autopilot side of things will be documented in [ROVER.md](
 ### Background
 Ardupilot itself was originally designed as low cost autopilot for remote control aeroplanes and boats, but has also been adapted to run "rovers" as well. Think Mars Rovers. 
 
-It works by acting as a remote control for the vehicle its being used on. It essentially replaces the preinstalled reciever on the "rover". It knows its own position using a GPS module, and connects to a Ground control station for mission instructions and waypoints. 
+It works by acting as a remote control for the vehicle its being used on. It essentially replaces the preinstalled receiver on the "rover". It knows its own position using a GPS module, and connects to a Ground control station for mission instructions and waypoints. 
 
 Overall its a very well sorted system and will make the Autonomous driving part pretty easy (touch wood), allowing me to focus more on the Payload system.
 
@@ -48,7 +48,7 @@ Ardupilot doesn't need much hardware, meaning it will be relatively cheap to ins
 - Ardupilot control module
 - GPS module
 - Telemetry/control TX/RX system
-- Sonar/IR for obstical avoidance (maybe)
+- Sonar/IR for obstacle avoidance (maybe)
 
 See [This Section](/journal/ROVER.md#navigation-computers) for which exact bits I used and why.
 

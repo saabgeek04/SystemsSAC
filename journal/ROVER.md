@@ -1,13 +1,13 @@
 #### [< Back to README.md](/README.md)
 
 # Rover Building
-This document details the process I followed to turn my traxxas slash into a autonomous rover.
+This document details the process I followed to turn my Traxxas slash into a autonomous rover.
 
 ## Initial Planning and designs
 
-The Traxxas Slash, like most remote control cars, has a flimsy plastic body that attaches to the chassis via 4 mounting poles. The body is non structual, and mostly serves as a protective cover, allowing crashes and rollovers to occur without damaging the vehicle. It also has front and rear bumpers, as well as side bash bars, for maximum saftey. 
+The Traxxas Slash, like most hobby class remote control cars, has a flimsy plastic body that attaches to the chassis via 4 mounting poles. The body is non structural, and mostly serves as a protective cover, allowing crashes and rollovers to occur without damaging the vehicle. It also has front and rear bumpers, as well as side bash bars, for maximum safety. 
 
-Ideally, All modifications added to the car are completely reverseable, "bolt on" modifications.
+Ideally, All modifications added to the car are completely reversible, "bolt on" modifications.
 
 I initially wanted to mount the navigation equipment in place of the body, via attaching a plate to the four mounting points. I tested this, and found it was not a bad solution. The car drove fine with the plate installed despite the increase in center of gravity, However there are a couple of issues with this design, the main one being that the navigation system would not be protected in event of a rollover, (which would be more likely due to the increase in CG). The other issue is that the body mounts are not designed to deal with the huge forces that I would be creating with all the extra weight.
 
@@ -29,18 +29,18 @@ I plan to construct two versions, one for prototyping, and one as the final desi
 
 ## Navigation Computers
 
-As I previously mentioned when talking about Ardupilot, I needed a couple of peices of hardware to make my car into a rover
+As I previously mentioned when talking about Ardupilot, I needed a couple of pieces of hardware to make my car into a rover
 
 - Ardupilot control module
 - GPS module
 - Telemetry/control TX/RX system
-- Sonar/IR for obstical avoidance (maybe)
+- Sonar/IR for obstacle avoidance (maybe)
 
 ### Which to buy on a budget?
 
-The control module is the bit that makes everything happen. It plugs into the speed controller and steering servo to drive the rover, as well as recieving GPS signal from the GPS module.
+The control module is the bit that makes everything happen. It plugs into the speed controller and steering servo to drive the rover, as well as receiving GPS signal from the GPS module.
 
-The ideal system, if avalible, would be the [Pixhawk 4](https://holybro.com/products/pixhawk-4?variant=41527199498429), which is unfortunately out of stock and very expensive. Its also a bit overkill for what I need, since I am using a rover and not a drone/aeroplane with complex shennanigans going on.
+The ideal system, if available, would be the [Pixhawk 4](https://holybro.com/products/pixhawk-4?variant=41527199498429), which is unfortunately out of stock and very expensive. Its also a bit overkill for what I need, since I am using a rover and not a drone/aeroplane with complex shenanigans going on.
 
 I started looking for a cheaper flight controller and eventually found a kit on aliexpress that for the price of a regular Pixhawk, would give me all the hardware I need + a Pixhawk clone, as a bunch of bonus bits. [This is the kit](https://www.aliexpress.com/item/1005005167479286.html) and I plan on purchasing the "915V1 1000MWPackageC" Variant. I know I said earlier that I didn't need all the functionality of a fully fledged Pixhawk, but I couldn't really find a better kit for the money. 
 
@@ -48,7 +48,7 @@ This variant comes with a cable that has a voltage regulator built in to power t
 
 The included GPS module may not be very good, but I happen to have a large box of GPS modules, which were used 20 years ago for mapping and surveying large areas. They are fitted with USB connectors currently, but I can always solder different connectors on if required. I plan to stick with a single GPS unless I start having issues. 
 
-The kit also contains a safety switch (basically a big red emergency stop button but without the big and red parts), a buzzer that can be enabled if the rover is lost and a sd card to be used as a rudimentry "Black Box".
+The kit also contains a safety switch (basically a big red emergency stop button but without the big and red parts), a buzzer that can be enabled if the rover is lost and a sd card to be used as a rudimentary "Black Box".
 
 I think this kit, which at this time is on sale for $335 is the best option for me at the moment. Obviously, in an ideal world I would not have to worry about cost and I would just spec out the best solution for this, but I don't have that luxury (Someone sponsor me!) so I'll be doing this all on the cheap, which is kind of the wrong way around if you think about the RC car I'm using as a base. 
 

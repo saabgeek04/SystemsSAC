@@ -7,9 +7,9 @@ This document details the design process I used to create the Clamps system that
 
 <img src='../media/clampdemo1.png'>
 
-I designed the inital clamps whilst on a plane to western australia, and all they really do is grab the payload and pull it down. They were very simple clamps but they worked, somewhat. I was sitting next to my dad on the plane, so him and I discussed the clamps and their shape quite a bit, and we started focusing on shape optimisation.
+I designed the initial clamps whilst on a plane to western australia, and all they really do is grab the payload and pull it down. They were very simple clamps but they worked, somewhat. I was sitting next to my dad on the plane, so him and I discussed the clamps and their shape quite a bit, and we started focusing on shape optimization.
 
-With my dads reccomendation I removed as much excess material as possible to create the most barebones clamp possible, then I can make it look pretty once I know all the design constraints. 
+With my dads recommendation I removed as much excess material as possible to create the most barebones clamp possible, then I can make it look pretty once I know all the design constraints. 
 Using a stress test we can see that there is not much, if not very little wasted material.
 
 <img src='../media/Barebones Stresstest.png'>
@@ -18,11 +18,11 @@ You can also see in this image that just around the pivot point there is signifi
 
 The other issue is failure modes. Ideally, the clamps fail shut so that the cargo is locked in place until it reaches its destination, where, upon arrival, it can be removed via a manual override. If the clamps were to fail open whilst the car was driving then the payload could be lost, which would mean mission failure
 
-Steering servos use gears and can be moved pretty well by hand, but ideally I dont need 6 of them, and If I did have 6 they would have to be relatively powerful to keep the payload sercured. I could also use a set of very small linear actuators, however that would be incredibly complex and silly, as well as very hard to override manually As an engineer, I am required to find an incredibly simple, "why didn't I think of that before" type solution. I think said solution will most likely involve springs in some way.
+Steering servos use gears and can be moved pretty well by hand, but ideally I don't need 6 of them, and If I did have 6 they would have to be relatively powerful to keep the payload secured. I could also use a set of very small linear actuators, however that would be incredibly complex and silly, as well as very hard to override manually As an engineer, I am required to find an incredibly simple, "why didn't I think of that before" type solution. I think said solution will most likely involve springs in some way.
 
 # Design Process 
 
-I started by thinking about the motion I want the payload to follow when it is loaded and unloaded, and realised that I could get the clamps to follow the payloads motion via pressure, The idea being that the payload pushes the clamps themselves as it goes down, and then the payload can be further locked in place, whether thats via a manual switch or an electronic one, I dont know yet, but it will be whatever suits. I probably don't need to have remote control over this, but that depends on how well people react. Some collaboration with the psychology students may be an order.
+I started by thinking about the motion I want the payload to follow when it is loaded and unloaded, and realized that I could get the clamps to follow the payloads motion via pressure, The idea being that the payload pushes the clamps themselves as it goes down, and then the payload can be further locked in place, whether thats via a manual switch or an electronic one, I don't know yet, but it will be whatever suits. I probably don't need to have remote control over this, but that depends on how well people react. Some collaboration with the psychology students may be an order.
 
 ## Automatic Mechanical Clamping 
 
@@ -46,10 +46,10 @@ I then scaled up the clamp I designed previously to match the new size of the pr
 
 <img src='../media/pringle3.png'>
 
-I initally wanted to make 6 clamps but I deemed that would be too much for just the prototype, So I ended up just making 4 instead. I probably only needed to make one pair of 2, but I want to make something a little bigger. 
+I initially wanted to make 6 clamps but I deemed that would be too much for just the prototype, So I ended up just making 4 instead. I probably only needed to make one pair of 2, but I want to make something a little bigger. 
 
 <img src='../media/pringle4.png'>
 
-I also added some 3mm thick plates for the whole thing to sit on, that way I can sit the prototype on my bench and test it, rather than trying to somehow hold it in place and manuveur things around. It was also around this point I realised Fusion360 had a high DPI mode (in the beta/experimental features section), which is very cool and will mean my screenshots from this point onwards will look alot nicer!
+I also added some 3mm thick plates for the whole thing to sit on, that way I can sit the prototype on my bench and test it, rather than trying to somehow hold it in place and manuever things around. It was also around this point I realized Fusion360 had a high DPI mode (in the beta/experimental features section), which is very cool and will mean my screenshots from this point onwards will look alot nicer!
 
 <img src='../media/pringle5.png'>
