@@ -62,4 +62,9 @@ To create the initial plan design I traced a top down photo of the rover chassis
 <img src='../media/trace1'>
 <img src='../media/thicctrace'>
 
-I did this on the same document I used to make [this acrylic plate](/journal/WEEKLY.md#23rd-february) as the measurements for the body mounts were somewhat accurate (+-1.5mm).
+I did this on the same document I used to make [this acrylic plate](/journal/WEEKLY.md#23rd-february) as the measurements for the body mounts were somewhat accurate (+-1.5mm). When I have access to the rover in person again, I will be able to measure out the length of each side and draw a new sketch to suit.
+
+There are alot of different forces at play during rover operation, and I want the computers to stay relatively safe during this. I expect to hitting lots of bumps and other obstacles, and even if I do upgrade the suspension, theres only so much it can do to smooth things out. The primary computer comes with a anti vibration mount, but the rest of the stuff does not, fortunately, we can 3D print TPU (a kind of rubber), which I will use to make rubber "washers" that will soak up a decent amount of vibration.
+
+<img src='../media/rubberwasher.png'>
+<i>an expertly drawn cross section of the rubber washer design</i>
