@@ -56,11 +56,10 @@ There are a couple of other options that are cheaper, but they miss out on certa
 
 ## Designing the Navigation platform 
 
-Whilst I wait for the Navigation computer to arrive, I will begin designing the platform for everything to reside on. At this point in time, since I am away, I do not have access to the car itself, but I have previously measured out parts of the car that I can then combine with an arial shot of the car to get approximate measurements. When I return home I will be able to take some more precise measurements of the car to further refine the model. I know that I am not the most precise measurerer, so I will build in adjustability.
-
+Whilst I wait for the Navigation computer to arrive, I will begin designing the platform for everything to reside on. At this point in time, since I am away, I do not have access to the car itself, but I have previously measured out parts of the car that I can then combine with an arial shot of the car to get approximate measurements. When I return home I will be able to take some more precise measurements of the car to further refine the model. I know that I am not the most precise measurerer, so I will build in adjustability in form of some slots. I will also cut prototypes out of cardboard to make sure everything fits properly without wasting material (a mistake I made previously...oops)
 To create the initial plan design I traced a top down photo of the rover chassis, not very precise, but I can tidy it up later
 
 <img src='../media/trace1'>
 <img src='../media/thicctrace'>
 
-I did this on the same document I used to make [this acrylic plate](/journal/WEEKLY.md#23rd-february) as the measurements for the body mounts were somewhat accurate (+-1.5mm). 
+I did this on the same document I used to make [this acrylic plate](/journal/WEEKLY.md#23rd-february) as the measurements for the body mounts were somewhat accurate (+-1.5mm).
