@@ -87,4 +87,4 @@ In class, I cut this trace out using cardboard, and no suprises here, it didn't 
 
 <img src='../media/5thplate.jpg'>
 
-I will most likely not get to revise this until next wednesday, so I will update 
+I will most likely not get to revise this until next wednesday, so I will update you guys then
