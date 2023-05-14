@@ -82,3 +82,9 @@ I struggled to get everything to line up, but then I got the width and length me
 In this next image, the blue is the old one and the grey is the new one, as you can see 
 
 <img src='../media/trace3.png'>
+
+In class, I cut this trace out using cardboard, and no suprises here, it didn't fit properly. I went through 5 iterations, every time getting closer and closer to perfection. I still need to make the 5th piece narrower at the back, that way I can accommodate the suspension. The laser cutter we have is amazing for rapid prototyping in this instance, as I can cut, review and redesign over and over, all using cardboard that would have otherwise been thrown away.
+
+<img src='../media/5thplate.jpg'>
+
+I will most likely not get to revise this until next wednesday, so I will update you guys then
