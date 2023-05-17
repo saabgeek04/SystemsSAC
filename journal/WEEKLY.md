@@ -26,3 +26,14 @@ I started prototyping the navigation platform, via means of cardboard cutouts, a
 <img src='../media/5plates.jpg'>
 
 I also 3d printed my clamping arms meaning I can construct my clamp prototype after I finish building the navigation platform. I am prioritising the navigation platform so that I when the computer arrives I am ready to install it, And I'll use the time inbetween to work on the clamping system. I also need to finish the navigation system first so that I can decide where and how the payload system will be mounted. 
+
+## 10th of May
+In this session I started redesigning my body mounts to account for the fact that I did not have long enough standoffs. This is not an ideal solution, but it will have to make do. I does have the side effect of allowing me to mount ports underneath the navigation platform, which is helpful.
+
+I laser cut two of these mounts without checking if the other side would fit, and suprise! it did not. I did not have enough time to finish these clips, so they would have to wait until next session.
+
+<img src="../media/sidemount1.jpg">
+
+## 17th of May
+
+I finished prototyping and building the navigation platform mounts, which is great because I was able to finally put the mounting holes in the navigation platform. I will be able to laser cut the navigation platform next week (or later this week if I'm lucky...) and I will be ready for the computers to arrive, which is very exciting! According to AusPost, they should arrive tomorrrow or the day after, which will mean that if I have the time I could probably get them fully operational by next week. 
