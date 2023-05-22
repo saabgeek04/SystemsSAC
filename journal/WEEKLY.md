@@ -46,3 +46,10 @@ The next day, I added all the parts to my rover and took it outside, where I let
 
 <img src="../media/roveronoval.jpg">
 
+### GPS accurracy 
+
+I managed to get GPS accuracy down to about 4m, which isnt too bad, but ideally I would manage to get it down further. on a large scale mission 
+
+
+
+Later that night, I started trying to get the rover into a state where it would be able to drive itself. The pixhawk itself does not support [PWM](https://en.wikipedia.org/wiki/Pulse-width_modulation) inputs, but thats what my remote puts out, so I had to use a PPM encoder, which came in the kit that I bought. The encoder actually runs on an AT mega 328P (?), so you technically make one out of an arduino nano.... not that you'd want another thing to diagnose. With everything setup, 
