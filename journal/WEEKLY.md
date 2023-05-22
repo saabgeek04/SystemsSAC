@@ -37,3 +37,12 @@ I laser cut two of these mounts without checking if the other side would fit, an
 ## 17th of May
 
 I finished prototyping and building the navigation platform mounts, which is great because I was able to finally put the mounting holes in the navigation platform. I will be able to laser cut the navigation platform next week (or later this week if I'm lucky...) and I will be ready for the computers to arrive, which is very exciting! According to AusPost, they should arrive tomorrrow or the day after, which will mean that if I have the time I could probably get them fully operational by next week. 
+
+## 18th May through till 21st
+
+The parts arrived, and were packed relatively well. Everything I ordered was there and on the 18th, I began setting up the autopilot system. The first issue I had was "NO GPS", which was caused by the fact that the GPS module that came with my kit was fitted with a diffrent connector than the one required. The pixhawk wanted a 6 pin connector, but my GPS was equipped with a 5 pin. This is actually normal for this particular GPS, and it comes with a 6 pin connector, so I followed [This tutorial](https://www.youtube.com/watch?v=6nLe9_2Fyok) and repinned it, which worked perfectly. 
+
+The next day, I added all the parts to my rover and took it outside, where I let it gather GPS data for a bit. I wasn't really looking for anything in particular, it was more just proof of concept 
+
+<img src="../media/roveronoval.jpg">
+
