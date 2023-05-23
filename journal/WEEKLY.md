@@ -68,4 +68,4 @@ I wanted to test my rover in manual mode first, before letting it drive itself a
 
 After my little scare, I tried to get the auto mode working again, but just sitting in hold mode, the rover tried to reverse intermittently, which was not ideal. since with my current remote I don't have reverse anyway, I put the ESC in race mode, which disables reverse. This solved the problem. I was able to get the rover to drive up and down my driveway without issue, with relatively inaccurate gps signal it wasn't the most precise, but it works well enough for now,
 
-My next move will be to take the rover to a big open area, like the school oval, and try to tune it properly.
+I got the rover to drive up and down on our driveway in guided mode, which worked! I took this oppturnity to tune the rover a bit, and give it access to enough power to get up the hill.
