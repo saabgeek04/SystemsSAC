@@ -56,7 +56,7 @@ I managed to get GPS accuracy down to about 4m, which isnt too bad, but ideally 
 
 <img src="../media/GPSSBAS.png">  
 
-<i>SBAS (media coming soon)</i>
+<i>SBAS (media coming soon)</i> 
 
 As you can see, the addition of SBAS has improved the amount of drift significantly.
 
