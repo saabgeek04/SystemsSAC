@@ -66,6 +66,10 @@ Later that night, I started trying to get the rover into a state where it would 
 
 I wanted to test my rover in manual mode first, before letting it drive itself around, and when doing this I encountered some very unusual behaviour. The rover would steer to the left when I increased the throttle, and steering would occasionally cause the throttle to go full backwards or fowards. I tried everything, including purchasing a new transmitter... and ended up just doing a full parameter reset, which fixed things. After this, I got super excited and decided to take the rover for its first auto drive, which didnt go very well. Before I sent it a new mission, The rover started freaking out, before trying to take off whilst setting the power supply on fire at the same time. This was not ideal, but I disarmed the rover and unplugged the dodgey cable as fast as I could. After this, the rover was acting fine, with the Pixhawk running off the ESC's power supply via the PWM output rail. This is not the reccomeneded way to power it, and I will purchase another power supply cable if need be. 
 
+<img src="../media/cooked.jpg">
+
 After my little scare, I tried to get the auto mode working again, but just sitting in hold mode, the rover tried to reverse intermittently, which was not ideal. since with my current remote I don't have reverse anyway, I put the ESC in race mode, which disables reverse. This solved the problem. I was able to get the rover to drive up and down my driveway without issue, with relatively inaccurate gps signal it wasn't the most precise, but it works well enough for now,
 
 I got the rover to drive up and down on our driveway in guided mode, which worked! I took this oppturnity to tune the rover a bit, and give it access to enough power to get up the hill.
+
+## 23rd May
