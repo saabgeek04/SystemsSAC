@@ -56,7 +56,7 @@ I managed to get GPS accuracy down to about 4m, which isnt too bad, but ideally 
 
 <img src="../media/GPSSBAS.png">  
 
-<i>SBAS (media coming soon)</i> 
+<i>SBAS (media coming soon, when I was testing SBAS it started raining and I had to recover the rover)</i> 
 
 As you can see, the addition of SBAS has improved the amount of drift significantly.
 
@@ -68,8 +68,27 @@ I wanted to test my rover in manual mode first, before letting it drive itself a
 
 <img src="../media/cooked.jpg">
 
+<i>The failed power supply cable</i>
+
 After my little scare, I tried to get the auto mode working again, but just sitting in hold mode, the rover tried to reverse intermittently, which was not ideal. since with my current remote I don't have reverse anyway, I put the ESC in race mode, which disables reverse. This solved the problem. I was able to get the rover to drive up and down my driveway without issue, with relatively inaccurate gps signal it wasn't the most precise, but it works well enough for now,
 
 I got the rover to drive up and down on our driveway in guided mode, which worked! I took this oppturnity to tune the rover a bit, and give it access to enough power to get up the hill.
 
 ## 23rd May
+
+I decided to take the rover for a proper test run. There's a big oval not far from where I work, so Dad and I headed there after work to see how well things would work. I kinda expected something to fail but no, everything worked perfectly the first time, which never happens! I did a couple of guided, "fly to here commands to get an idea of how the rover would drive. I decided to up the throttle amount it could use from 30% to 50%, and this seemed to smooth things out. The turning radius is huge, so I want to spend some time tuning it. I gave the rover a set of waypoints to follow, and it did so with ease, all whilst keeping a pretty good gps track
+
+<img src='../media/firstrun.png'>
+
+<i>Don't worry, the satellite images are out of date. I did not trespass onto a construction site to test my rover</i>
+
+In this image you can see the rover kinda swerves around on its way to the waypoint. This is due to the fact that I did absolutely zero compass calibration before the run, and the gps isn't quite mounted facing the right way. I think the rover actually did a very good job correcting for this. As we were doing our test runs towards the later end of the day (I got off work at 10pm) we resolved to attach a headtorch to the rover to act as "headlights". And maybe some tailights. and maybe some port/starboard lights.
+
+<img src='../media/firstrunight.jpg'>
+
+<i>I should have taken a video...this will do for now</i>
+
+There are two things I want to change
+
+1. Obstacle avoidance. The rover was getting really close to crashing into me and my "base station". current ideas include ultrasonic (arduino sensor) or using my old Xbox kinect.
+2. Isolating the environment from the guts of the rover. I managed to pick up every single grass clipping ever with my rover. This is not good.
