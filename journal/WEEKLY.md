@@ -92,3 +92,20 @@ There are two things I want to change
 
 1. Obstacle avoidance. The rover was getting really close to crashing into me and my "base station". current ideas include ultrasonic (arduino sensor) or using my old Xbox kinect.
 2. Isolating the environment from the guts of the rover. I managed to pick up every single grass clipping ever with my rover. This is not good.
+
+## 31st May 
+
+Between now and my last entry, I had to deal with a bunch of electrical gremlins. I wont go into detail, but basically, my Traxxas VXL-3S ESC did not want to play ball with my autopilot computer. Luckily for me, I had a spare, amazon special esc which worked fine. 
+
+The next thing I wanted to do was to improve the mounting system. I made up some parts in fusion360. The idea with these was to make my mount alot stronger and less wobbly, reducing stress and enabling me to mount things better. 
+
+<img src='../media/fusionmountss.png'>
+
+I then 3d printed these pieces, one at a time due to the dubious reliablility of the 3d printers. I only got the first one done today, and the second one was completed about an hour after school finished, so I'll get another photo once both are finished.
+
+<img src='../media/newsidemount.jpg'>  
+<img src='../media/newmountbro.jpg'>  
+
+Notice that the reciever and ESC just floating around in the car. My next plan is to make up a plate for them to mount to with doublesided tape. This will make things alot nicer.
+
+I still havent gotten around to sorting out obstacle avoidance. That will come as soon as I can sort out all the other electronics first.
