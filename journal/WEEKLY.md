@@ -109,3 +109,17 @@ I then 3d printed these pieces, one at a time due to the dubious reliablility of
 Notice that the reciever and ESC just floating around in the car. My next plan is to make up a plate for them to mount to with doublesided tape. This will make things alot nicer.
 
 I still havent gotten around to sorting out obstacle avoidance. That will come as soon as I can sort out all the other electronics first.
+
+## 7th June 
+
+<img src='../media/finishedmounts.jpg'>
+
+This week, I finished printing the other mount and laser cut some cross braces. I built holes into the cross braces, that way I could mount the pixhawk and I also lowered the GPS. I was initially concerned about the GPS getting less reception due to being down lower, but in practice, this was not the case. I did have a display on the rover, but that has inexplicably ceased to work, so I don't know how many satellites... I think I can use ardupilot to give me a readout. 
+
+I also mounted the speed controller and reciever much lower and properly wwith 3M DualLock velcro tape, which works really well.
+
+After some brief testing, I found that I needed to make some mudguards to stop grass and mud entering the rover. I prototyped some parts out of cardboard, which worked pretty well and got rid of 99% of the debris, but the cardboard was not going to last very long, see below:
+
+<img src='../media/cbmf1.jpg'>
+<img src='../media/cdmf2.jpg'>
+
