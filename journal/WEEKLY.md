@@ -121,5 +121,6 @@ I also mounted the speed controller and reciever much lower and properly wwith 3
 After some brief testing, I found that I needed to make some mudguards to stop grass and mud entering the rover. I prototyped some parts out of cardboard, which worked pretty well and got rid of 99% of the debris, but the cardboard was not going to last very long, see below:
 
 <img src='../media/cbmf1.jpg'>
-<img src='../media/cdmf2.jpg'>
+<img src="../media/cbmf.jpg">
 
+To fix this, I made some new parts out of coreflute.
