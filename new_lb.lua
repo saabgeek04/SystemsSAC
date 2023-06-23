@@ -1,7 +1,7 @@
 -- New ProfiLED lightbar script by orca
 -- TODO: Untested!
 
-ProfiLEDBar = {}
+ProfiLEDBar = { channel = 0, num_leds = 0 }
 ProfiLEDBar.__index = ProfiLEDBar
 
 -- Static --
@@ -89,7 +89,7 @@ local function start()
     local delay = 20
 
     -- Create our test lightbar using channel 9
-    local bar = ProfiLEDBar:create(10, 20)
+    local bar = ProfiLEDBar:create(1, 20)
 
     -- Check if we succeeded, if not, bail
     if not bar then
