@@ -9,7 +9,7 @@ ProfiLEDBar.__index = ProfiLEDBar
 -- 
 -- Params:
 -- message - Message to log
-function ProfiLEDBar.log(message)
+function ProfiLEDBar:log(message)
     gcs:send_text(6, "ProfiLED: " .. message)
 end
 
@@ -21,7 +21,7 @@ end
 function ProfiLEDBar:create(channel, num_leds)
     -- Check the channel is in the valid range
     if channel < 1 or channel > 16 then
-        return ProfiLEDBar.log("Invalid channel " .. tostring(channel))
+        return ProfiLEDBar:log("Invalid channel " .. tostring(channel))
     end
 
     -- Get the actual channel. Starts at 94 to 109 corresponding to 1 to 16.
@@ -29,7 +29,7 @@ function ProfiLEDBar:create(channel, num_leds)
 
     -- Check we got a channel
     if not actual_channel then
-        return ProfiLEDBar.log("Failed to get channel " .. tostring(channel))
+        return ProfiLEDBar:log("Failed to get channel " .. tostring(channel))
     end
 
     -- Init the channel with the set number of LEDs
@@ -89,11 +89,11 @@ local function start()
     local delay = 20
 
     -- Create our test lightbar using channel 9
-    local bar = ProfiLED.create(9)
+    local bar = ProfiLEDBar:create(10, 20)
 
     -- Check if we succeeded, if not, bail
     if not bar then
-        ProfiLEDBar.log("Failed to init the bar, bailing")
+        ProfiLEDBar:log("Failed to init the bar, bailing")
         -- Try again after 2s
         return start, 2000
     end
