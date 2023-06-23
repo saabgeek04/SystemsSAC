@@ -123,4 +123,11 @@ After some brief testing, I found that I needed to make some mudguards to stop g
 <img src='../media/cbmf1.jpg'>
 <img src="../media/cbmf.jpg">
 
-To fix this, I made some new parts out of coreflute.
+To fix this, I made some new parts out of coreflute. These look much cooler, and dont get saturated when used in water. I still have some water hitting the underside of the "cabin" portion of the body, and this can cause water to drip down into the "isloated" space where the electronics are, so I am going to look into getting a waterproof mesh cover or something similar. If I wanted everything totally waterproof, then I would probably put everything in a tuppawere container, but this is not a boat, so I should be fine. 
+
+![](2023-06-16-09-58-38.png)
+![](2023-06-16-09-58-59.png)
+
+## 14th June 
+
+I attempted to attach an FPV camera to the rover to give me a better idea of whats going on whilst I'm driving. I harvested this system off a cheap drone, and its supposedly 5.8Ghz. I did some brief tests, and the latency was really good. However, as soon as I got out into the field the range was actually abysmal 
