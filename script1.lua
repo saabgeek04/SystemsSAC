@@ -9,15 +9,7 @@ end
 -- num_leds: number of LEDs on the strip
 function lb_init(channel, num_leds)
     -- find_channel finds the first channel of a data type and returns its physical channel number
-    -- channels 94 and up seem to be SERVOX_FUNCTION data output channels
-    -- channel numbers here do not correspond to the real channel numbers in the software
-    -- 
-    -- Reserved for ProfiLED:
-    -- 129: ProfiLED 1
-    -- 130: ProfiLED 2
-    -- 131: ProfiLED 3
-    -- 132: ProfiLED Clock
-    -- Channels 94 to 109 are usable for further LEDs.
+    -- ProfiLED uses channels 94-109 to address a maximum of 15 LED strips.
     local real_channel = SRV_Channels:find_channel(channel)
     
     -- Check channel is valid
