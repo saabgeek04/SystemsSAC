@@ -87,7 +87,7 @@ In class, I cut this trace out using cardboard, and no suprises here, it didn't 
 
 <img src='../media/5thplate.jpg'>
 
-# Complete Redesign
+## Complete Redesign
 
 I realised it wasnt super efficient or really worth mounting everything on a single plate, and I also wasnt happy with the mounting system at all. I made up some parts in fusion360. The idea with these was to make my mount alot stronger and less wobbly, reducing stress and enabling me to mount things better. 
 
@@ -111,7 +111,19 @@ After some brief testing, I found that I needed to make some mudguards to stop g
 <img src='../media/cbmf1.jpg'>
 <img src="../media/cbmf.jpg">
 
-To fix this, I made some new parts out of coreflute. These look much cooler, and dont get saturated when used in water. I still have some water hitting the underside of the "cabin" portion of the body, and this can cause water to drip down into the "isloated" space where the electronics are, so I am going to look into getting a waterproof mesh cover or something similar. If I wanted everything totally waterproof, then I would probably put everything in a tuppawere container, but this is not a boat, so I should be fine. 
+To fix this, I made some new parts out of coreflute. These look much cooler, and dont get saturated when used in water. I still have some water hitting the underside of the "cabin" portion of the body, and this can cause water to drip down into the "isloated" space where the electronics are, so I am going to look into getting a waterproof mesh cover or something similar. If I wanted everything totally waterproof, then I would probably put everything in a tuppawere container, but this is not a boat, so I should be fine.
 
 ![](2023-06-16-09-58-38.png)
-![](2023-06-16-09-58-59.png) 
+![](2023-06-16-09-58-59.png)
+
+This was also done on relatively tall, wet grass, which is difficult for a whole host of other reasons.
+
+## Lightbar 
+
+I really wanted to have a lightbar that woudl show me some status lights as well as work as navigation lights at night. The Ardupilot actually has support for profiLED and neopixel LEDs, but if you wanna do fancy stuff with them like I do, you actually need to write some lua scripts. I am by no means any good at programming. To date, the most I've done is make a javascript... script? that rotates a window on a website to face the cursor, very similar to a steam trading card. 
+
+I looked at some example code, and with the help of a much more skilled friend, went through and we tried to make a script that would work. After about 4 hours of troubleshooting, much refactoring and 2 new wiring harnesses, we gave up on profiLED.
+
+![](../media/image.png)
+
+<i>part of the code we wrote</i>

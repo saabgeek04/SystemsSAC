@@ -1,5 +1,4 @@
 -- New ProfiLED lightbar script by orca
--- TODO: Untested!
 
 ProfiLEDBar = { channel = 0, num_leds = 0 }
 ProfiLEDBar.__index = ProfiLEDBar
