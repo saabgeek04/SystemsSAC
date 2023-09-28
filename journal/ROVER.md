@@ -87,4 +87,31 @@ In class, I cut this trace out using cardboard, and no suprises here, it didn't 
 
 <img src='../media/5thplate.jpg'>
 
-I will most likely not get to revise this until next wednesday, so I will update you guys then
+# Complete Redesign
+
+I realised it wasnt super efficient or really worth mounting everything on a single plate, and I also wasnt happy with the mounting system at all. I made up some parts in fusion360. The idea with these was to make my mount alot stronger and less wobbly, reducing stress and enabling me to mount things better. 
+
+<img src='../media/fusionmountss.png'>
+
+I then 3d printed these pieces, one at a time due to the dubious reliablility of the 3d printers. 
+
+<img src='../media/newsidemount.jpg'>  
+<img src='../media/newmountbro.jpg'>  
+
+Notice that the reciever and ESC just floating around in the car. I ended up making a mounting plate 
+
+<img src='../media/finishedmounts.jpg'>
+
+This week, I finished printing the other mount and laser cut some cross braces. I built holes into the cross braces, that way I could mount the pixhawk and I also lowered the GPS. I was initially concerned about the GPS getting less reception due to being down lower, but in practice, this was not the case. On occasion, I noticed I had one less satellite, so no really huge difference there
+
+I also mounted the speed controller and reciever much lower and properly wwith 3M DualLock velcro tape, which works really well.
+
+After some brief testing, I found that I needed to make some mudguards to stop grass and mud entering the rover. I prototyped some parts out of cardboard, which worked pretty well and got rid of 99% of the debris, but the cardboard was not going to last very long, see below:
+
+<img src='../media/cbmf1.jpg'>
+<img src="../media/cbmf.jpg">
+
+To fix this, I made some new parts out of coreflute. These look much cooler, and dont get saturated when used in water. I still have some water hitting the underside of the "cabin" portion of the body, and this can cause water to drip down into the "isloated" space where the electronics are, so I am going to look into getting a waterproof mesh cover or something similar. If I wanted everything totally waterproof, then I would probably put everything in a tuppawere container, but this is not a boat, so I should be fine. 
+
+![](2023-06-16-09-58-38.png)
+![](2023-06-16-09-58-59.png) 
