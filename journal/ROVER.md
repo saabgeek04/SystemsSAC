@@ -138,3 +138,11 @@ I had a little budget left and really wanted to have obstacle avoidance, so I sp
 
 It was at this point I decided to reflash the firmware on the pixhawk. I backed up all the parameters and reflashed Ardupilot rover onto it. This fixed nothing. This kinda sucked. I had a look at other options for Pixhawk firmware as well as different GCS (ground control software). I landed on running PX4 firmware (as opposed to ardupilot, which I was previously running) and using [QGroundControl](http://qgroundcontrol.com/). This combination seems to be more of an industry standard(?) and is the "it just works" solution compared to ardupilot, which is more of a hobby class solution. I haven't started on getting LIDAR or the lightbar working on Qgroundcontrol, but currently, I'm happy that its just working, and the user experience on Qgroundcontrol is much nicer than Ardupilot. It's highly likey that my issues with LIDAR and NeoPixel are due to me purchasing a flight controller off aliexpress, but its worth trying all the software first before I come to that conclusion. 
 
+## Ground clearance
+
+You may have noticed that the rover sits pretty low, which is great for handling and driving at speed, but I found that now that I have a payload on the vehicle, the rear sits way too low, and over bumps can hit the ground pretty hard I rebuilt the rear shock absorbers to help with this, (I may or may not have blown them out at the skatepark last year and forgot to put new oil in them...). I initally put a blend of 10w and 85w oil in to try and achieve something close to 45-50w, which is whats reccomended for this model, but this ended up not being quite enough. The thicker the oil in a shock absorber is, the slower it moves. I ended up putting 85w in for this reason, as well as moving the shocks into a more vertical position, meaning that the rover was nice and high off the ground.
+
+![](../media/lowboi.jpg)
+<i>Old suspension config, No Payload.</i>
+
+#### insert images here of new suspension.
