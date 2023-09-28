@@ -127,3 +127,14 @@ I looked at some example code, and with the help of a much more skilled friend, 
 ![](../media/image.png)
 
 <i>part of the code we wrote</i>
+
+I then tried using Neopixels instead, but could not get any output out of the Pixhawk at all.
+
+## Obstacle avoidance and LIDAR
+
+I had a little budget left and really wanted to have obstacle avoidance, so I spent $80 and bought a TF02 Lidar sensor off aliexpress. It suprisingly only took two weeks to ship, and when it arrived I had to repin it, but once that was done I plugged it in, set the relevant parameters and.... nothing. It was getting pretty annoying having nothing new work with the Pixhawk, sooo...
+
+## Firmware
+
+It was at this point I decided to reflash the firmware on the pixhawk. I backed up all the parameters and reflashed Ardupilot rover onto it. This fixed nothing. This kinda sucked. I had a look at other options for Pixhawk firmware as well as different GCS (ground control software). I landed on running PX4 firmware (as opposed to ardupilot, which I was previously running) and using [QGroundControl](http://qgroundcontrol.com/). This combination seems to be more of an industry standard(?) and is the "it just works" solution compared to ardupilot, which is more of a hobby class solution. I haven't started on getting LIDAR or the lightbar working on Qgroundcontrol, but currently, I'm happy that its just working, and the user experience on Qgroundcontrol is much nicer than Ardupilot. It's highly likey that my issues with LIDAR and NeoPixel are due to me purchasing a flight controller off aliexpress, but its worth trying all the software first before I come to that conclusion. 
+
