@@ -87,6 +87,18 @@ In class, I cut this trace out using cardboard, and no suprises here, it didn't 
 
 <img src='../media/5thplate.jpg'>
 
+## Flight controller setup and usage
+
+Getting the Pixhawk working was pretty easy. It seems complex initally due to the amount of stuff going on, but once you understand everything its not bad at all. 
+
+[](image-1.png)
+
+<i> A diagram showing all the devices connected to the pixhawk</i>
+
+When I got my pixhawk, I was instructed to put particular firmware on it, so I did, and it didnt work at all. I put the latest firmware on it and it started working. There wasnt much else to do except mount everything. Most of the stuff I had to do to get it to work properly was PID tuning and Motor Calibration. 
+
+![Alt text](image-2.png)
+
 ## Complete Redesign
 
 I realised it wasnt super efficient or really worth mounting everything on a single plate, and I also wasnt happy with the mounting system at all. I made up some parts in fusion360. The idea with these was to make my mount alot stronger and less wobbly, reducing stress and enabling me to mount things better. 
