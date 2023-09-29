@@ -56,4 +56,13 @@ I also added some 3mm thick plates for the whole thing to sit on, that way I can
 
 # Revising it all
 
+I 3D printed a prototype of this system and realised that it was overly complex and very inflexible. I opted to swap it out for a more conventional design instead. This would make the payload easier to mount, able to be mounted lower down in the rover and have far less failure points.
 
+## Design
+
+I went with an easier to recognise and familiar medical supply box 
+
+![](120px-Largehealth.png)
+
+I started off by modelling it in fusion, and then making it openable and able to be locked shut.
+![Alt text](image.png)

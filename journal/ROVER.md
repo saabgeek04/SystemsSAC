@@ -143,6 +143,6 @@ It was at this point I decided to reflash the firmware on the pixhawk. I backed 
 You may have noticed that the rover sits pretty low, which is great for handling and driving at speed, but I found that now that I have a payload on the vehicle, the rear sits way too low, and over bumps can hit the ground pretty hard I rebuilt the rear shock absorbers to help with this, (I may or may not have blown them out at the skatepark last year and forgot to put new oil in them...). I initally put a blend of 10w and 85w oil in to try and achieve something close to 45-50w, which is whats reccomended for this model, but this ended up not being quite enough. The thicker the oil in a shock absorber is, the slower it moves. I ended up putting 85w in for this reason, as well as moving the shocks into a more vertical position, meaning that the rover was nice and high off the ground.
 
 ![](../media/lowboi.jpg)
-<i>Old suspension config, No Payload.</i>
+<i>Old suspension config, No Payload... when the profiLED bar kinda worked</i>
 
 #### insert images here of new suspension.
