@@ -110,9 +110,14 @@ It would take very strange circumstances for the rover to collide with a human. 
 #### Severity: Insignificant
 I have had the rover collide with me alot. I have sustained less than a bruise from these collisions. It kinda just bounces off your feet.
 #### Verdict: Low Risk
+A possible solution would be the Lidar sensor to get the rover to avoid humans.
 
 
 ### 2. The Rover Battery Explodes
 
 #### Likelyhood: Rare
-####
+The Lithium-Polymer (LiPo) battery used to power the rover is very unlikely to experience thermal runaway during operation. The Flight controller knows the battery percentage, and will trigger a safety toggle to stop operation. The risk really comes from charging the battery, but if the battery is charged on a safe charger and the balance lead is used, then there is virtually no risk of a fire.
+#### Severity: Moderate
+A LiPo battery explosion is pretty violent. Theres alot of heat that gets released very quickly. If the battery is close to a human whilst charging, then they could get seriously burned.
+#### Verdict: Moderate Risk
+I believe as long as the LiPo battery is treated with respect, and the user understands how to identify a battery that is at risk, then the risk will be minimised.
