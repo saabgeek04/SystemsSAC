@@ -121,3 +121,21 @@ The Lithium-Polymer (LiPo) battery used to power the rover is very unlikely to e
 A LiPo battery explosion is pretty violent. Theres alot of heat that gets released very quickly. If the battery is close to a human whilst charging, then they could get seriously burned.
 #### Verdict: Moderate Risk
 I believe as long as the LiPo battery is treated with respect, and the user understands how to identify a battery that is at risk, then the risk will be minimised.
+
+### 3. Manual handling of the Rover resulting in back injury
+
+#### Likelyhood: Moderate
+Someone in a rush may use improper lifting techniques to lift the Rover.
+#### Severity: Minor
+Gets worse over time but on a single occurance factor could be unpleasant.
+#### Verdict: Moderate Risk
+If the correct lifting procedures are followed, then injury will not occur.
+
+### 4. Rover motors activate whilst the rover is being handled, causing harm
+
+#### Likelyhood: Unlikely
+It has never ever happened to me, and I've done a bunch of dumb stuff with the rover
+#### Severity: Insignificant
+The most that would happen is you might get a bit of carpetburn from one of the tires or a pinched finger
+#### Verdict: Low Risk
+A saftey switch to kill motor power is installed on the rover to prevent this from happening
