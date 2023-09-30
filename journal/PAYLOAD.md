@@ -65,4 +65,7 @@ I went with an easier to recognise and familiar medical supply box
 ![](120px-Largehealth.png)
 
 I started off by modelling it in fusion, and then making it openable and able to be locked shut.
-![Alt text](image.png)
+![Alt text](image-3.png)
+
+I then scaled it up a bunch and 3d printed both the body and the lid
+
