@@ -138,4 +138,4 @@ It has never ever happened to me, and I've done a bunch of dumb stuff with the r
 #### Severity: Insignificant
 The most that would happen is you might get a bit of carpetburn from one of the tires or a pinched finger
 #### Verdict: Low Risk
-A saftey switch to kill motor power is installed on the rover to prevent this from happening
+A saftey switch to kill motor power is installed on the rover to prevent this from happening.

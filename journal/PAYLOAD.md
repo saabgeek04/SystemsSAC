@@ -69,3 +69,6 @@ I started off by modelling it in fusion, and then making it openable and able to
 
 I then scaled it up a bunch and 3d printed both the body and the lid
 
+#### insert images here
+
+I laser cut a holder for the medkit and mounted that on the rover. I also cut up the body a bit to make some space for the lid. 
