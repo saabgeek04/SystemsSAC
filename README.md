@@ -81,3 +81,38 @@ Ideally the clamps can move independently of each other, allowing the greatest f
 6 individual motors?
 
 I continue the design process for this part in the [PAYLOAD.md](/journal/PAYLOAD.md) document.
+
+## Risk Assessment
+
+As with any project, there are risks involved with the operation of this rover. To help identify and mitigate these, I have grabbed the risk assessment matrix from the [Worksafe website](https://www.worksafe.vic.gov.au/how-conduct-risk-assessment) and filled it in with colours to make it nicer to look at 
+
+![Alt text](image.png)
+
+#### Key
+
+##### 1. Insignificant
+Any injury or disease that needs first aid treatment only.
+##### 2. Minor
+Any injury or disease that is likely to result in a person being incapacitated from normal activity for a continuous period of up to 7 days.
+##### 3. Moderate
+Any injury or disease that is likely to result in a person being incapacitated from normal activity for a continuous period of 7 or more days.
+##### 4. Major
+A fatality or total and permanent disability.
+##### 5. Catastrophic
+Multiple fatalities.
+
+So, what are some of the risks we might run into? 
+
+### 1. The Rover collides with a person
+
+#### Likelyhood: Unlikely
+It would take very strange circumstances for the rover to collide with a human. Humans tend to see it coming and move it out of the way. Unless you somehow dont see or hear it coming (from quite a while away). Its very easy to detect.
+#### Severity: Insignificant
+I have had the rover collide with me alot. I have sustained less than a bruise from these collisions. It kinda just bounces off your feet.
+#### Verdict: Low Risk
+
+
+### 2. The Rover Battery Explodes
+
+#### Likelyhood: Rare
+####
