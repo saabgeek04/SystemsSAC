@@ -130,6 +130,28 @@ To fix this, I made some new parts out of coreflute. These look much cooler, and
 
 This was also done on relatively tall, wet grass, which is difficult for a whole host of other reasons.
 
+### Final layout
+
+Heres a little collection of photos showing the final layout of parts on the rover
+
+![Alt text](IMG_1064.JPG)
+*The GPS and Motor Shutoff Switch*
+
+![Alt text](IMG_1065.JPG)
+*The Safety Switch at the rear of the car*
+
+![Alt text](IMG_1067.JPG)
+*The battery tucked away in its compartment. At the top-right, you can see the PPM encoder*
+
+![Alt text](IMG_1068.JPG)
+*The Electronic Speed Controller (ESC)*
+
+![Alt text](IMG_1071.JPG)
+*The Steering servo sitting up front*
+
+![Alt text](IMG_0776.JPG)
+*The Pixhawk, I.E the brains of it all*
+
 ## Lightbar 
 
 I really wanted to have a lightbar that woudl show me some status lights as well as work as navigation lights at night. The Ardupilot actually has support for profiLED and neopixel LEDs, but if you wanna do fancy stuff with them like I do, you actually need to write some lua scripts. I am by no means any good at programming. To date, the most I've done is make a javascript... script? that rotates a window on a website to face the cursor, very similar to a steam trading card. 
